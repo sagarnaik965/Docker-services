@@ -1,0 +1,26 @@
+version: '3.8'  # Use version 3.8 or the version you prefer
+
+services:
+  pre-prod54:
+    image: krdh-services-i:v1  # Image name
+    container_name: pre-prod54  # Container name
+    ports:
+      - "8080:8080"  # Expose port 8080
+    environment:
+      - TZ=Asia/Kolkata  # Timezone environment variable
+      - JAVA_OPTS=-Duser.timezone=Asia/Kolkata  # Java options to set timezone
+    volumes:
+      - "/home/docker_krdh_services/webapps/:/usr/appserver/tomcat/webapps/"
+      - "/home/docker_krdh_services/context.xml:/usr/appserver/tomcat/conf/context.xml"
+      - "/home/docker_krdh_services/catalina.sh:/usr/appserver/tomcat/bin/catalina.sh"
+      - "/opt/appdata/:/opt/appdata/"
+      - "/usr/safenet/:/usr/safenet/"
+      - "/etc/Chrystoki.conf:/etc/Chrystoki.conf"
+      - "/etc/localtime:/etc/localtime"  # Sync local time
+      - "/etc/timezone:/etc/timezone"    # Sync timezone info
+      - "/usr/share/zoneinfo/:/usr/share/zoneinfo"  # Zone info
+      - "/etc/hosts:/etc/hosts"  # Host file mapping
+    cap_add:
+      - SYS_TIME  # Adding SYS_TIME capability to the container
+    restart: always  # Optionally, set to always restart on failure
+    # Add more options like logging or resource limits if needed
