@@ -23,4 +23,10 @@ services:
     cap_add:
       - SYS_TIME  # Adding SYS_TIME capability to the container
     restart: always  # Optionally, set to always restart on failure
+    
     # Add more options like logging or resource limits if needed
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+docker-compose up -d
+docker-compose up --scale pre-prod54=3 -d
+
