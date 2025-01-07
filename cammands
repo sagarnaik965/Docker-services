@@ -1,0 +1,361 @@
+
+C@Dc_Trish@@n_1993
+Welcome@123#
+
+Adv@1234567890#
+CyDb@0987654321#
+Krdh!@#$2099
+
+cyfuture11
+
+echo 3 > /proc/sys/vm/drop_caches
+du -h --max-depth=1
+-----------------------------------------------
+
+Adv@1234567890#
+
+Welcome@123#
+
+
+Adv@12345#
+-----------------------------------------------
+
+
+STAGING:::::
+-----------------------------------------------
+Forticlient password = C@Dc_Trish@@n_1993
+192.168.10.9
+login as = user1
+password = Tej@s1993
+
+chomod -R 775 
+chown -R tom:App 
+
+/usr/appserver/tomcat/webapps/
+/opt/appdata/logs/tomcatlogs/
+systemctl restart tomcat
+
+chmod -R 775 adv/ ;chown -R tomcat:ApplicationServer adv/
+rm -rf /opt/appdata/logs/tomcatlogs/catalina.out ;systemctl restart tomcat.service ; tail -f /opt/appdata/logs/tomcatlogs/catalina.out -n 1000
+
+-----------------------------------------------
+local
+
+10.210.0.196  7531
+advdeveloper
+7O86JYr4*!f*
+
+-----------------------------------------------
+
+ss -ntl
+
+netstat -nlp
+
+fuser -k 9100/tcp
+
+-----------------------------------------------
+MPSDC
+
+ASA_user
+FDC$fge@2024
+
+
+ssh root@172.16.1.67
+mp$dc$rv@1139
+
+-----------------------------------------------
+
+
+
+sudo yum install net-tools
+
+ psql -U iocl_dev -p 54032 -d asa_ms_db
+
+cyfuture db =
+psql -U sys_bench  -p 54032 -d loadtest
+password = welcome123
+
+db =
+psql -U iocl_dev  -p 64033 -d aadhaar_data_vault
+password = welcome123
+
+psql -U iocl_dev  -p 54032 -d aadhaar_data_vault
+
+Adv@12345#
+
+netstat -ano | findstr :8082
+taskkill /PID 27948 /F
+
+
+
+
+/home/prachi/apache-jmeter-5.4.1-1/bin/jmeter -n -t /home/prachi/apache-jmeter-5.4.1-1/testing/docker-load.jmx
+
+systemctl start tomcat.service
+systemctl stop tomcat.service
+
+Vijay@1234
+
+ /usr/appserver/tomcat/WorkshopDetails.txt
+
+
+username - epramaanmumbai
+password - H@8fDnc&9sDjvn
+10.10.86.8 -   crypto vault deployed
+10.10.86.9 -   loadtest setup 
+VM user name and password
+username - epramaan
+password - Epr@m@@n123#
+
+echo 3 > /proc/sys/vm/drop_caches
+
+
+netstat -ona | find "3000" |findstr LISTENING
+
+taskkill /PID 19708 /F
+
+guys use advdeveloper user for vm connection
+password:- 7O86JYr4*!f* on 10.210.0.196  
+
+
+
+
+------------------------------------------------------------------------------------------
+how to connect with remote repo with our local project
+
+
+~ git init - main						----------create main branch 
+~ git add .							----------add all files to local repo
+~ git commit -m "message for commit"				----------commit with message
+~ git remote add origin <url>					----------add remote repo to local 
+~ git remote -v							----------check whether any origin repo is there or not  
+~ git push origin main 						----------to push the data of local to remote
+~
+~
+
+git init - main					
+git add .		
+git commit -m "message for commit"
+git remote add origin https://github.com/sagarnaik965/PROD-STATIC-CSV-GIT-DEMO.git
+git remote -v	  
+git push origin main 	
+
+
+-------------------------------------------------------------------------------------------
+Step 1 : Create branch 
+   git branch “branch name”
+
+Step 2 : Checkout branch
+   git checkout “branch name”
+
+Step 3 : Merge new branch in master branch
+   git merge “branch name”
+
+Step 4 : Delete branch
+   git branch -d “branch name”    — delete from local
+   git push origin —delete “branch name”   — delete from remote
+
+
+
+
+
+-----------------------------------------Production-TejasSir------------------------------------------------------
+
+wc -l ===getSize-Lines
+
+
+nohup java -jar jarfile &
+pgrep -f myapp.jar
+ps aux | grep myapp.jar
+
+
+
+service tomcat start
+service tomcat stop
+
+ps aux | grep tomcat
+kill -9 2192324
+
+
+tail -f filename -n 1000
+
+mkdir foldername						[create folder]
+
+::for basic permission
+chmod 775 foldername					[give permission to folder]
+chown tejas:users foldername 				[give group and users to folder]
+
+::for tomcat permission
+chmod -R 775 foldername
+chown -R tomcat:ApplicationServer foldername    [tomcat group and ApplicationServer user ]
+
+
+rm -rf foldername/filename				[remove file/folder]
+cp -r sr sr2						[copy sr folder into sr2 folder first give permission to it ]
+
+::withing folder give permission to all file 
+chmod -R 775 *
+chown -R tomcat:ApplicationServer *
+
+
+[root@advbat1 sr]# unzip ../department.war	[if we are in sr and war is out sr    (./ means withing folder)]				
+
+
+::one VM to Another VM
+ scp -r department  tejas@10.246.123.24:/home/tejas/sr
+
+ scp -r   epramaan@10.10.86.10:/home/epramaan/securevault/
+
+
+
+path for logs::/mnt/tomcat/appdata/logs/tomcatlogs
+
+jasper Images: /usr/appserver/tomcat/webapps/department/resources/images/
+
+/usr/appserver/tomcat/logs
+https://advservice.epramaan.gov.in/department/Demo
+
+
+[root@epramaan03 bin]# 
+
+
+-------------------------------nohup-----------------------------------------
+
+nohup java -jar -Xmx2048m jarfilename &
+
+./jmeter -n -t /Testing2/loadtest.jmx
+
+
+
+
+/usr/appserver/tomcat/webapps/department/resources/images/
+
+/usr/appserver/tomcat/webapps/admin/resources/images/
+
+keytool -trustcacerts -keystore "/jdk/jre/lib/security/cacerts" -storepass changeit -importcert -alias testalias -file "/opt/ssl/test.crt"
+
+keytool -trustcacerts -keystore "C:\Program Files\Java\jdk1.8.0_361\jre\lib\security\cacerts" -storepass changeit -importcert -alias testalias -file "/opt/ssl/test.crt"
+
+keytool -trustcacerts -keystore "C:\Program Files\Java\jdk1.8.0_361\jre\lib\security\cacerts" -storepass changeit -importcert -alias testalias -file "E:\epramaan.meripehchaan.gov.in.crt"
+
+keytool -trustcacerts -keystore "C:\Program Files\Java\jdk1.8.0_361\jre\lib\security\cacerts" -storepass changeit -importcert -alias testalias -file "E:\epramaanprod2016.crt"
+
+keytool -trustcacerts -keystore "C:\Program Files\Java\jdk1.8.0_361\jre\lib\security\cacerts" -storepass changeit -importcert -alias staggingalias -file "E:\stag.crt"
+
+ tail -f /mnt/tomcat/appdata/logs/tomcatlogs/catalina.out -n 100000
+
+
+------------------------------------------------------------------------------------------
+find . -mindepth 1 -maxdepth 1 -type d ! -name t2 -exec rm -r {} +
+------------------------------------------------------------------------------------------
+:: Heap dump Clear cache
+sudo sync; echo 3 > /proc/sys/vm/drop_caches
+
+echo 3 > /proc/sys/vm/drop_caches
+
+------------------------------------------------------------------------------------------
+
+::check db database connection from application server
+
+lsof -i :<db_port> | grep ESTABLISHED | wc -l
+
+
+------------------------------------------------------------------------------------------
+
+thread count:
+ ps -eL   | wc -l
+
+ ps -eL -q PID | wc -l
+ 
+ PID:: ps aux | grep java
+
+ ps -eL -q 2244814 | wc -l
+
+
+ df -u
+ du -h --max-depth=1
+ ps -efT 1338569 | wc -l
+
+/opt/appdata/logs/crypto
+/usr/appserver/tomcat/DS-SUVARNA-AROGYA-SURAKSHA-TRUST.pfx
+
+
+
+
+----------------------------Network Related Linux cammands--------------------------------------------------
+
+
+/etc/sysctl.conf
+
+::newparamaters addded::
+
+#net.ipv4.ip_local_port_range=1024 65535
+#net.ipv4.tcp_tw_reuse = 1
+#net.ipv4.tcp_tw_recycle = 1
+
+/etc/security/limits.conf
+
+
+#################### NEtwork ###############
+# "Thread Count"
+ps -elfT | wc -l
+
+#"TCP Keep Alive"
+cat /proc/sys/net/ipv4/tcp_keepalive_time
+# "TCP interval"
+cat /proc/sys/net/ipv4/tcp_keepalive_intvl
+# "TCP Probe"
+cat /proc/sys/net/ipv4/tcp_keepalive_probes
+#"Total DB Connections count"
+netstat -anp | grep 54032|wc -l
+# "Total Established Connections count"
+netstat -nat | grep ESTABLISHED|wc -l
+# "Total Wait Connections count"
+netstat -nat | grep WAIT|wc -l
+
+
+Increase ulimit   
+cat /etc/security/limits.conf
+
+*       Hard   nofile    200000
+*       Soft   nofile    500000
+*       Soft    nproc   128319
+*       Hard    nproc   128319
+
+ tomcat     Hard   nofile    200000
+ tomcat    Soft   nofile    500000
+ tomcat     Soft    nproc   128319
+ tomcat    Hard    nproc   128319
+
+ krdhadmin     Hard   nofile    200000
+ krdhadmin    Soft   nofile    500000
+ krdhadmin     Soft    nproc   128319
+ krdhadmin    Hard    nproc   128319
+ add above entries
+
+
+
+
+############## wire shark  #############
+
+ifconfig ----- for our ethernet
+
+tcpdump -i eth1 -w pcap <file name> 
+
+tcpdump -i ens192 -c3 -nn >> 55pcap
+ 
+tcpdump -i ens192 -nn
+
+tcpdump -i ens192 -w pcap <file name> ens192
+
+########## Thread dump ######
+
+ps aux | grep tomcat  ---- pid 
+
+jstack -F <pid> <file name>
+
+
+
+guys use advdeveloper user for vm connection password:- 7O86JYr4*!f* on 10.210.0.196  
+
+root user password will be changed
