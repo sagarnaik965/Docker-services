@@ -1,0 +1,15 @@
+::KRDH PREPROD WITH HSM CONNECTION::
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+docker run -it -d --cap-add=SYS_TIME \
+ -v "/home/docker_krdh_services/webapps/:/usr/appserver/tomcat/webapps/" \
+ -v "/home/docker_krdh_services/context.xml:/usr/appserver/tomcat/conf/context.xml" \
+ -v "/home/docker_krdh_services/catalina.sh:/usr/appserver/tomcat/bin/catalina.sh" \
+ -v "/opt/appdata/:/opt/appdata/" \
+ -v "/usr/safenet/:/usr/safenet/"\
+ -v "/etc/Chrystoki.conf:/etc/Chrystoki.conf"\
+ -v /etc/localtime:/etc/localtime  \
+ -v /etc/timezone:/etc/timezone  \
+ -v /usr/share/zoneinfo/:/usr/share/zoneinfo \
+ -v /etc/hosts:/etc/hosts \
+ -e TZ=Asia/Kolkata  -e JAVA_OPTS="-Duser.timezone=Asia/Kolkata"  \
+ -p 8080:8080  --name pre-prod54  krdh-services-i:v1
